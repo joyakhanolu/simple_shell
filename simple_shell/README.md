@@ -16,19 +16,8 @@ The simple shell is an application that reads lines from either a file or the te
 - Our program have the exact same output as ```sh (/bin/sh)``` as well as the exact same error output.
 - The only difference is when you print an error, the name of the program must be equivalent to the ``argv[0]``
 
-### Example of error with sh:
-```Bash
-$ echo "Ian" | /bin/sh
-/bin/sh: 1: qwerty: not found
-$ echo "Ian" | /bin/../bin/sh
-/bin/../bin/sh: 1: qwerty: not found
-$
-```
-### Same error with our program hsh:
-```
-
 ## List of functions and system calls we used
-```Bash
+```Bash 
 - access (man 2 access)
 - chdir (man 2 chdir)
 - close (man 2 close)
@@ -114,5 +103,5 @@ $
 ### Contributors
 |Names                | Emails                 |
 |---------------------|------------------------|
-| Musa Selekie Kanneh | musas.kanneh@gmail.com |
+| Iwuchukwu Chidera Iwuaku | biningnadfinance@gmail.com |
 | Joy Akhanolu | joyakhanolu17@gmail.com |
